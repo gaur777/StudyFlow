@@ -170,7 +170,7 @@ function TasksPage({ error, loading, tasks, onAddTask, onDeleteTask, onUpdateTas
             />
           </label>
         </div>
-
+        <div style={{ marginTop: "10px" }}></div>
         <label className="field">
           <span>Notes</span>
           <textarea
@@ -181,7 +181,7 @@ function TasksPage({ error, loading, tasks, onAddTask, onDeleteTask, onUpdateTas
             value={form.notes}
           />
         </label>
-
+        <div style={{ marginTop: "15px" }}></div>
         <button
           className="primary-button"
           disabled={submitting}

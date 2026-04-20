@@ -16,10 +16,6 @@ const settingSchema = new mongoose.Schema(
       type: Boolean,
       default: true,
     },
-    dailySummary: {
-      type: Boolean,
-      default: false,
-    },
   },
   {
     timestamps: true,

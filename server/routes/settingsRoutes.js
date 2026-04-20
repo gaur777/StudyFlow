@@ -32,10 +32,6 @@ router.put('/', async (request, response) => {
     settings.taskReminders = request.body.taskReminders
   }
 
-  if (typeof request.body.dailySummary === 'boolean') {
-    settings.dailySummary = request.body.dailySummary
-  }
-
   await settings.save()
   response.json(settings)
 })

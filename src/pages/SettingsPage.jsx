@@ -53,12 +53,6 @@ function SettingsPage({ settings, user, onProfileSave, onSettingsChange }) {
             label="Task Reminders"
             onChange={() => onSettingsChange('taskReminders', !settings.taskReminders)}
           />
-          <div className="divider" />
-          <ToggleRow
-            checked={settings.dailySummary}
-            label="Daily Summary"
-            onChange={() => onSettingsChange('dailySummary', !settings.dailySummary)}
-          />
         </article>
 
         <article className="settings-card">
@@ -77,7 +71,7 @@ function SettingsPage({ settings, user, onProfileSave, onSettingsChange }) {
               value={profileDraft.name}
             />
           </label>
-
+          <div style={{ marginTop: "10px" }}></div>
           <label className="field">
             <span>Email</span>
             <input
@@ -86,7 +80,7 @@ function SettingsPage({ settings, user, onProfileSave, onSettingsChange }) {
               value={user.email}
             />
           </label>
-
+          <div style={{ marginTop: "10px" }}></div>
           <label className="field">
             <span>Daily Study Goal (hours)</span>
             <input
@@ -102,7 +96,7 @@ function SettingsPage({ settings, user, onProfileSave, onSettingsChange }) {
               value={profileDraft.dailyGoalHours}
             />
           </label>
-
+          <div style={{ marginTop: "15px" }}></div>
           <button
             className="primary-button"
             onClick={() => onProfileSave(profileDraft)}

@@ -22,7 +22,6 @@ import './styles/app.css'
 const initialSettings = {
   darkMode: false,
   taskReminders: true,
-  dailySummary: false,
 }
 
 const initialUser = {
