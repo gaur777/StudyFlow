@@ -47,3 +47,22 @@ npm run dev:full
 ```
 
 Frontend runs on `http://localhost:5173` and backend runs on `http://localhost:5001`.
+
+## Folder Structure
+
+    StudyFlow/
+    ├── backend/
+    │   ├── models/
+    │   ├── routes/
+    │   ├── controllers/
+    │   ├── config/
+    │   └── server.js
+    │
+    ├── frontend/
+    │   ├── src/
+    │   │   ├── components/
+    │   │   ├── pages/
+    │   │   ├── api/
+    │   │   └── App.jsx
+    │   └── index.html
+
