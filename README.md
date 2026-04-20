@@ -1,21 +1,40 @@
 # Student Task Manager
 
 A simple MERN stack project for students to manage study tasks, view basic analytics, and update simple preferences.
+The goal of this project was to understand how frontend, backend, database and deployment work in a full-stack app.
+
+Live Demo- https://study-flow-eight-mu.vercel.app/
 
 ## Features
 
-- Add new tasks
-- Edit task names
-- Mark tasks as completed
-- Delete tasks
-- View simple analytics
-- Update settings like dark mode and reminders
+-   User signup and login (JWT-based auth)
+-   Create, update, and delete study tasks (CRUD)
+-   Track study hours per task
+-   Basic profile and settings management
+-   Protected routes for authenticated users
+-   Clean dashboard UI
 
 ## Tech Stack
 
-- React + Vite
-- Node.js + Express
-- MongoDB + Mongoose
+### Frontend
+
+-   React (Vite)
+-   Tailwind CSS
+-   Fetch API
+
+### Backend
+
+-   Node.js
+-   Express.js
+
+### Database
+
+-   MongoDB (Mongoose)
+
+### Deployment
+
+-   Frontend: Vercel
+-   Backend: Render
 
 ## Run Locally
 
